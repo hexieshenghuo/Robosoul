@@ -1,0 +1,27 @@
+1------------------
+SampleCount: 11172   CorrectCount: 11148   TotalFalseCount: 24
+PseudoPCount: 19   PseudoNCount: 5
+TotalPCount: 6233   TotalNCount: 4939
+Precision: 99.7852%
+LossRatio: 0.384693%
+FalseActionRation: 0.0802182%
+
+RFParam
+max_depth : 36  //  10
+min_sample_count : 6 // 10
+regression_accuracy : 0.00001 // 0
+use_surrogates : 0    // 0
+max_categories : 300   // 15
+priors : 0            // 0
+calc_var_importance : 0 // 1 
+nactive_vars :   0   // 4
+max_num_of_trees_in_the_forest : 300 // 100
+forest_accuracy : 0.0001  // 0.01
+termcrit_type  : 1      // 1
+Threshold :      3.0       //3.0
+TrainType :   1          // 1: regression 2: category
+
+GrayHistParam
+Param: Bin 16, CellType 100
+ROI: x 405, y 39, width 150, height 355
+ImageROI: x 405, y 39, width 150, height 355

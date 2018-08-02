@@ -1,0 +1,9 @@
+SampleCount: 11742   CorrectCount: 11739   TotalFalseCount: 3
+PseudoPCount: 3   PseudoNCount: 0
+TotalPCount: 6800   TotalNCount: 4942
+Precision: 99.9745%
+LossRatio: 0.0607042%
+FalseActionRation: 0%
+
+
+2in3

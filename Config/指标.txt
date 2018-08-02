@@ -1,0 +1,49 @@
+SampleCount: 11742   CorrectCount: 11739   TotalFalseCount: 3
+PseudoPCount: 3   PseudoNCount: 0
+TotalPCount: 6800   TotalNCount: 4942
+Precision: 99.9745%
+LossRatio: 0.0607042%
+FalseActionRation: 0%
+
+
+2in3
+
+
+2016 08 16------------------
+
+0
+Cate1 Cate2 Cascade
+SampleCount: 6012   CorrectCount: 5980   TotalFalseCount: 32
+PseudoPCount: 0   PseudoNCount: 32
+TotalPCount: 3692   TotalNCount: 2320
+Precision: 99.4677%
+LossRatio: 0%
+FalseActionRation: 0.866739%
+
+1
+Cate1 Cate2 Mean
+SampleCount: 6012   CorrectCount: 6004   TotalFalseCount: 8
+PseudoPCount: 3   PseudoNCount: 5
+TotalPCount: 3692   TotalNCount: 2320
+Precision: 99.8669%
+LossRatio: 0.12931%
+FalseActionRation: 0.135428%
+
+2
+Cate1 Cate2 Weighted Mean
+SampleCount: 6012   CorrectCount: 5922   TotalFalseCount: 90
+PseudoPCount: 1   PseudoNCount: 89
+TotalPCount: 3692   TotalNCount: 2320
+Precision: 98.503%
+LossRatio: 0.0431034%
+FalseActionRation: 2.41062%
+
+
+3
+Cate1 Cate2 Cate3 2IN3
+SampleCount: 6201   CorrectCount: 6199   TotalFalseCount: 2
+PseudoPCount: 1   PseudoNCount: 1
+TotalPCount: 3691   TotalNCount: 2510
+Precision: 99.9677%
+LossRatio: 0.0398406%
+FalseActionRation: 0.0270929%

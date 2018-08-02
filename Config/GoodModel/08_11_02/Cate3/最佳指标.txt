@@ -1,0 +1,60 @@
+﻿1------------------
+SampleCount: 11288   CorrectCount: 11281   TotalFalseCount: 7
+PseudoPCount: 0   PseudoNCount: 7
+TotalPCount: 6349   TotalNCount: 4939
+Precision: 99.938%
+LossRatio: 0%
+FalseActionRation: 0.110254%
+
+
+RFParam
+max_depth : 36  //  10
+min_sample_count : 6  // 10
+regression_accuracy : 0.00001 // 0
+use_surrogates : 0    // 0
+max_categories : 150   // 15
+priors : 0            // 0
+calc_var_importance : 0 // 1 
+nactive_vars :   0   // 4
+max_num_of_trees_in_the_forest : 100 // 100
+forest_accuracy : 0.0001  // 0.01
+termcrit_type  : 1      // 1
+Threshold :   3.0       // 3.0
+TrainType :   1          // 1: regression 2: category
+
+
+RawFeatParam
+Param: Width 75, Height 178
+ROI: x 405, y 39, width 150, height 355
+Interpolation: 3     // 2 缺省 3 CV_INTER_AREA
+isNorm: 1        //
+
+
+2------------------训练有点慢
+SampleCount: 11661   CorrectCount: 11655   TotalFalseCount: 6
+PseudoPCount: 1   PseudoNCount: 5
+TotalPCount: 6722   TotalNCount: 4939
+Precision: 99.9485%
+LossRatio: 0.020247%
+FalseActionRation: 0.0743826%
+
+RFParam
+max_depth : 36  //  10
+min_sample_count : 6  // 10
+regression_accuracy : 0.00001 // 0
+use_surrogates : 0    // 0
+max_categories : 150   // 15
+priors : 0            // 0
+calc_var_importance : 0 // 1 
+nactive_vars :   0   // 4
+max_num_of_trees_in_the_forest : 300 // 100
+forest_accuracy : 0.0001  // 0.01
+termcrit_type  : 1      // 1
+Threshold :   3.0       // 3.0
+TrainType :   1          // 1: regression 2: category
+
+RawFeatParam
+Param: Width 75, Height 178
+ROI: x 405, y 39, width 150, height 355
+Interpolation: 3     // 2 缺省 3 CV_INTER_AREA
+isNorm: 1        //

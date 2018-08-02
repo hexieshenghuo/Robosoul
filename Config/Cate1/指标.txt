@@ -1,0 +1,31 @@
+1------------------
+SampleCount: 3822   CorrectCount: 3817   TotalFalseCount: 5
+PseudoPCount: 0   PseudoNCount: 5
+TotalPCount: 1999   TotalNCount: 1823
+Precision: 99.8692%
+LossRatio: 0%
+FalseActionRation: 0.250125%
+
+
+Param: HoGBin 8, HogCellType 25
+ROI: x 405, y 39, width 150, height 356
+ImageROI: x 405, y 39, width 150, height 356
+
+max_depth : 36 //  10
+min_sample_count : 5 // 10
+regression_accuracy : 0.0001 // 0
+use_surrogates : 0    // 0
+max_categories : 150   // 15
+priors : 0            // 0
+calc_var_importance : 0 // 1 
+nactive_vars :   0   // 4
+max_num_of_trees_in_the_forest : 300 // 100
+forest_accuracy : 0.0001  // 0.01
+termcrit_type  : 1      // 1
+Threshold :      3.0       //3.0
+TrainType :   1          // 1: regression 2: category
+
+F:/RoboSoul/Config/Samples/good_1
+F:/RoboSoul/Config/Samples/bad_1
+F:/RoboSoul/Config/Samples/good_2
+F:/RoboSoul/Config/Samples/bad_2
